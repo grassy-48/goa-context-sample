@@ -1,0 +1,97 @@
+hash: 98d029254eb07efb56aeddc032860ed96ead54b8e6a4a2c09fda8493f2fe68cb
+updated: 2017-11-14T11:00:02.9762644+09:00
+imports:
+- name: github.com/armon/go-metrics
+  version: 023a4bbe4bb9bfb23ee7e1afc8d0abad217641f3
+- name: github.com/BurntSushi/toml
+  version: a368813c5e648fee92e5f6c30e3944ff9d5e8895
+- name: github.com/deadcheat/goacors
+  version: 0000b0d6fa546d549886da15ef182437222add59
+- name: github.com/dimfeld/httppath
+  version: ee938bf735983d53694d79138ad9820efff94c92
+- name: github.com/dimfeld/httptreemux
+  version: 90654bdd3dfc3cac55538aa620f2f4d855bbdb83
+- name: github.com/fsnotify/fsnotify
+  version: 4da3e2cfbabc9f751898f250b49f2439785783a1
+- name: github.com/goadesign/goa
+  version: af615d5c3a6f02fb14b0952343cadcb2e6c5dabf
+  subpackages:
+  - client
+  - design
+  - design/apidsl
+  - dslengine
+  - middleware
+  - middleware/gzip
+  - uuid
+- name: github.com/hashicorp/go-immutable-radix
+  version: 8aac2701530899b64bdea735a1de8da899815220
+- name: github.com/hashicorp/golang-lru
+  version: 0a025b7e63adc15a622f29b0b2c4c3848243bbf6
+  subpackages:
+  - simplelru
+- name: github.com/hashicorp/hcl
+  version: 8f6b1344a92ff8877cf24a5de9177bf7d0a2a187
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/jteeuwen/go-bindata
+  version: a0ff2567cfb70903282db057e799fd826784d41d
+- name: github.com/magiconair/properties
+  version: 8d7837e64d3c1ee4e54a880c5a920ab4316fc90a
+- name: github.com/manveru/faker
+  version: 717f7cf83fb78669bfab612749c2e8ff63d5be11
+- name: github.com/mattetti/filebuffer
+  version: 80f2c1c4dcf558a0cee1e4303225d17c6238e00a
+- name: github.com/mitchellh/mapstructure
+  version: d0303fe809921458f417bcf828397a65db30a7e4
+- name: github.com/pelletier/go-toml
+  version: 1d6b12b7cb290426e27e6b4e38b89fcda3aeef03
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/spf13/afero
+  version: ee1bd8ee15a1306d1f9201acc41ef39cd9f99a1b
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: acbeb36b902d72a7a4c18e8f3241075e7ab763e4
+- name: github.com/spf13/jwalterweatherman
+  version: 12bd96e66386c1960ab0f74ced1362f66f552f7b
+- name: github.com/spf13/pflag
+  version: 7aff26db30c1be810f9de5038ec5ef96ac41fd7c
+- name: github.com/spf13/viper
+  version: 25b30aa063fc18e48662b86996252eabdcf2f0c7
+- name: github.com/zach-klippenstein/goregen
+  version: 795b5e3961ea1912fde60af417ad85e86acc0d6a
+- name: golang.org/x/net
+  version: 66aacef3dd8a676686c7ae3716979581e8b03c47
+  subpackages:
+  - context
+  - websocket
+- name: golang.org/x/sys
+  version: 9aade4d3a3b7e6d876cd3823ad20ec45fc035402
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: bd91bbf73e9a4a801adbfb97133c992678533126
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: eb3733d160e74a9c7e442f435eb3bea458e1d19f
+- name: upper.io/db.v3
+  version: 46f50a98f8d5d77d1d4631f1bcc0ce6496e55734
+  subpackages:
+  - internal/cache
+  - internal/cache/hashstructure
+  - internal/immutable
+  - internal/sqladapter/compat
+  - internal/sqladapter/exql
+  - lib/reflectx
+  - lib/sqlbuilder
+testImports: []

@@ -1,0 +1,20 @@
+[server]
+URIScheme = "http"
+DocHostName = "localhost"
+DocPort = 16640
+HostName = "localhost"
+PortNum = 16640
+
+[cors]
+alloworigins = [
+    "*"
+]
+
+allowmethods = [
+    "GET",
+    "POST",
+    "PUT",
+    "PATCH",
+    "DELETE"
+]
+
