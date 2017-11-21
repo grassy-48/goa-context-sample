@@ -7,7 +7,7 @@ endif
 
 .DEFAULT_GOAL := prepare
 
-all: cleandep depend clean mkdir precompile gen precompile build build-console
+all: cleandep depend clean mkdir precompile gen precompile build
 
 prepare: cleandep depend clean mkdir precompile gen precompile
 
@@ -42,9 +42,6 @@ precompile:
 
 build:
 	@go build -o $(BUILD_TARGET_FILES)
-
-build-console:
-	@go build -o $(BUILD_TARGET_FILES_CONSOLE)
 
 go-run:
 	@go run main.go

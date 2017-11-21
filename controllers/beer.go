@@ -68,3 +68,13 @@ func (c *BeerController) Show(ctx *app.ShowBeerContext) error {
 	res := &app.GoaContextSampleBeer{}
 	return ctx.OK(res)
 }
+
+// Teapot runs the teapot action.
+func (c *BeerController) Teapot(ctx *app.TeapotBeerContext) error {
+	// BeerController_Teapot: start_implement
+
+	// Put your logic here
+
+	// BeerController_Teapot: end_implement
+	return nil
+}

@@ -8,5 +8,9 @@ import (
 var BeerPayload = Type("BeerPayload", func() {
 	Member("title", String, "Beer name")
 	Member("type", String, "beer type")
+	Member("homepage", String, func() {
+		Description("beer official homepage")
+		Format("uri")
+	})
 	Required("title", "type")
 })

@@ -8,7 +8,12 @@ import (
 var BeerMedia = MediaType("application/vnd.goa.context.sample.beer+json", func() {
 	Description("A bottle of beer")
 	Attributes(func() {
-		Attribute("id", Integer, "beer ID")
+		//Attribute("id", Integer, "beer ID")
+		Attribute("id", Integer, func() {
+			Description("id (type int64)")
+			Metadata("struct:field:type", "int64")
+			Example(1)
+		})
 		Attribute("title", String, "beer name")
 		Attribute("type", String, "beer type")
 		Attribute("created_at", String, "create time stamp")
