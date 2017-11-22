@@ -37,6 +37,16 @@ func (c *BeerController) Create(ctx *app.CreateBeerContext) error {
 	return nil
 }
 
+// Empty runs the empty action.
+func (c *BeerController) Empty(ctx *app.EmptyBeerContext) error {
+	// BeerController_Empty: start_implement
+
+	// Put your logic here
+
+	// BeerController_Empty: end_implement
+	return nil
+}
+
 // List runs the list action.
 func (c *BeerController) List(ctx *app.ListBeerContext) error {
 	// BeerController_List: start_implement

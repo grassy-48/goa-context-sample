@@ -29,6 +29,9 @@ var _ = Resource("beer", func() {
 		})
 	})
 	DefaultMedia(mb.BeerMedia)
+	Action("empty", func() {
+		Routing(GET("/empty"))
+	})
 	Action("list", func() {
 		Description("Get all beers")
 		Routing(GET(""))
