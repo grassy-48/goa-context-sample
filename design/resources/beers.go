@@ -14,20 +14,20 @@ var _ = Resource("beer", func() {
 	Files("/index.html", "public/index.html", func() {
 		Description("Serve home page")
 	})
-	Action("teapot", func() {
-		Routing(GET("/teapot"))
-		Response("TeapotResponse", func() {
-			Description("I'm a teapot")
-			Headers(func() {
-				Header("X-Request-DrinkType", func() {
-					Description("Request only tea")
-					Enum("Tea", "EarlGrey", "Caylon")
-				})
-				Required("X-Request-DrinkType")
-			})
-			Status(418)
-		})
-	})
+	//	Action("teapot", func() {
+	//		Routing(GET("/teapot"))
+	//		Response("TeapotResponse", func() {
+	//			Description("I'm a teapot")
+	//			Headers(func() {
+	//				Header("X-Request-DrinkType", func() {
+	//					Description("Request only tea")
+	//					Enum("Tea", "EarlGrey", "Caylon")
+	//				})
+	//				Required("X-Request-DrinkType")
+	//			})
+	//			Status(418)
+	//		})
+	//	})
 	DefaultMedia(mb.BeerMedia)
 	Action("empty", func() {
 		Routing(GET("/empty"))
