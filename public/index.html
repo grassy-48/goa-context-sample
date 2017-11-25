@@ -2,6 +2,14 @@
 
 <body>
     これは静的なHTMLファイルだよ
+    <form method="POST" action="http://localhost:16640/api/beers">
+        <p>
+        ビール名：<input type="text" name="title" />
+        ビールタイプ：<input type="text" name="type" />
+        <input type="submit" value="送信" />　
+        <input type="reset" value="取り消し" />
+        </p>
+       </form>
 </body>
 
 </html>
